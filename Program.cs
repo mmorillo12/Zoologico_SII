@@ -18,8 +18,6 @@ namespace Zoologico
         }
     }
     public class Mamifero : Animal{
-        protected string colorPlumaje;
-        protected double alturaMaximaVuelo;
         public Mamifero(string especie, string nombre, double peso,int jaula):base(especie, nombre, peso, jaula){}
         public override void queClaseDeAnimalEres(){
             Console.WriteLine("\nSoy un mamifero llamado: {0}", nombre);
